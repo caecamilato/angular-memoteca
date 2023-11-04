@@ -11,4 +11,12 @@ export class PensamentoComponent {
     autoria: 'Caê',
     modelo: 'modelo3'
   }
+
+  constructor() { }
+
+  ngOnInit(): void { }
+
+  larguraPensamento(): string {
+      return this.pensamento.conteudo.length >= 256 ? 'pensamento-g' : 'pensamento-p'
+  }
 }
