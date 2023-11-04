@@ -9,7 +9,7 @@ export class PensamentoComponent {
   @Input() pensamento = {
     conteudo: 'I Love Angular',
     autoria: 'Caê',
-    modelo: 'modelo3'
+    modelo: 'modelo2'
   }
 
   constructor() { }
